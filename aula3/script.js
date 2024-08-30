@@ -13,7 +13,7 @@ console.log("foi");
 //    document.write(i + "<br>")
 //}
 
-let limite = parseInt(prompt("Digite um valor:"));
+let limite = parseInt(prompt("Digite um valor limite:"));
 let soma = 0;
 for(let i = 1; i <= limite; i++){
     let numero = +prompt("numero");
