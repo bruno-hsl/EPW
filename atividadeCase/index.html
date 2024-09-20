@@ -1,33 +1,30 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cálculo de Salário</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <h2>Cálculo de Salário</h2>
-        <form id="salarioForm">
-            <label for="salario">Salário Base:</label>
-            <input type="number" id="salario" placeholder="Informe o salário base" required>
+    
+    <h1>calculo de salário</h1>
 
-            <label for="cargo">Selecione o cargo:</label>
+    <form id="">
+        <label for="salario">salario</label>
+        <input type="number" id="salario" required>
+
+        <label for="cargo">cargo:</label>
             <select id="cargo">
                 <option value="diretor">Diretor</option>
                 <option value="secretario">Secretário</option>
                 <option value="operador">Operador</option>
             </select>
 
-            <input type="button" value="Calcular" onclick="calcularSalario()">
-        </form>
+            <button type="button" id="botao">calcular</button>
+    </form>
 
-        <div class="resultado" id="resultado"></div>
-    </div>
-
+    <p id="resultado"></p>
+    
     <script src="script.js"></script>
 </body>
 </html>
-
-            
