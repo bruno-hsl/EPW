@@ -1,0 +1,15 @@
+{
+  "name": "24",
+  "version": "1.0.0",
+  "description": "primeiro projeto node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "java",
+    "node"
+  ],
+  "author": "bruno-hsl",
+  "license": "ISC"
+}
